@@ -1,0 +1,26 @@
+body{
+    background: aqua
+}
+
+h1{
+    background: red;
+    width: 290px;
+    height: 40px;
+}
+
+
+.paragraph-1{
+    background: red;
+    font-size: 25pt;
+    color: white
+}
+
+.paragraph-2{
+    border: 3px solid yellow;
+    border-radius:10px;
+    font-size:20pt;
+    margin-bottom:60pt;
+    padding-right: 0px;
+    padding-left: 150px;
+    padding-bottom:20px;
+}
