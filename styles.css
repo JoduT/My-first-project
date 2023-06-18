@@ -1,26 +1,51 @@
 body{
-    background: aqua
+    font-family: Tahoma;
+    background: linear-gradient(70deg, #89e9f5, pink);
 }
 h1{
     background: red;
-    width: 290px;
-    height: 40px;
-    margin-left: 450pt;
+    width: 350px;
+    height: 60px;
+    margin-left: 500px;
     border: 5px solid blue;
     border-radius: 20px;
-    padding-left:5pt
+    padding-left:5px;
 }
 .paragraph-1{
     background: red;
-    font-size: 25pt;
-    color: white
+    font-size: 20px;
+    color: white;
+    border-radius:20px;
 }
 .paragraph-2{
-    border: 3px solid yellow;
-    border-radius:10px;
-    font-size:20pt;
-    margin-bottom:60pt;
-    padding-right: 0px;
-    padding-left: 150px;
+    font-size:25px;
+    margin-bottom:60px;
+    padding-right: 20px;
+    padding-left: 20px;
     padding-bottom:20px;
+    background: rgba(57, 56, 56, 0.35);
+    border-radius: 20px;
+    width: 800px;
+    margin-left:300px;
 }
+.homework{
+    border: 5px solid red;
+    border-radius:10px;
+    padding:20px;
+    width: 820px;
+    font-size:20px;
+    color: #A9091F;
+    background: linear-gradient(70deg, #F9C0C8, #EFC1FA);
+    margin:auto;
+}
+.img{
+    border: 5px solid red;
+    border-radius:10px;
+}
+.new_paragraph{
+    font-size:24px;
+    text-shadow: 2px 3px rgba(21, 134, 42, 0.7);
+    font-style: oblique
+}
+
+#AF00DA	#9C1ABB	#8D00AF	#DE6BFA	#EFC1FA
