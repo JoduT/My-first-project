@@ -12,9 +12,9 @@ h1{
     padding-left:5px;
 }
 .paragraph-1{
-    background: red;
+    background: rgba(255, 87, 87, 0.86);
     font-size: 20px;
-    color: white;
+    color: rgb(255, 255, 255);
     border-radius:20px;
 }
 .paragraph-2{
@@ -32,11 +32,12 @@ h1{
     border: 5px solid red;
     border-radius:10px;
     padding:20px;
-    width: 820px;
+    width: 750px;
     font-size:20px;
     color: #A9091F;
     background: linear-gradient(70deg, #F9C0C8, #EFC1FA);
     margin:auto;
+    padding:auto;
 }
 .img{
     border: 5px solid red;
@@ -46,6 +47,22 @@ h1{
     font-size:24px;
     text-shadow: 2px 3px rgba(21, 134, 42, 0.7);
     font-style: oblique
+}
+.shasha {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 #AF00DA	#9C1ABB	#8D00AF	#DE6BFA	#EFC1FA
