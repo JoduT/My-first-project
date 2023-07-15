@@ -6,3 +6,6 @@ def index(request):
 
 def top_sellers(request):
     return render(request, 'top-sellers.html')
+
+def register(request):
+    return render(request, 'register.html')
